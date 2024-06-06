@@ -1,8 +1,24 @@
-# React + Vite
+# Sistema de Cadastro de Fornecedores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém uma página web responsiva, que é um módulo de cadastro de fornecedores, sendo este parte de um sistema de gestão de processos de uma organização. O projeto tem sido desenvolvido por mim utilizando o framework React.js e Javascript. A atividade coloca em prática habilidades técnicas como:
 
-Currently, two official plugins are available:
+* Organização
+* Componentização
+* Consumo de API
+* Gerenciamento de versões com Git
+* Responsividade
+* Uso de states e hooks no React
+* Estilização com Styled Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação consome uma API fake criada com json-server.
+
+O design do modelo foi desenvolvido por mim considerando noções de UX/UI utilizando a ferramenta Illustrator.
+
+## Para executar a aplicação
+
+```
+npm install
+npm run server
+npm run dev
+
+```

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import bgImage from "./assets/bg-login-desktop.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const LoginContainer = styled.section`    
     background-image: url(${bgImage});
@@ -68,18 +69,46 @@ const LoginContainer = styled.section`
         
     }
 
+    @media (max-width: 525px) {
+        padding: 0 20px 0 20px;
+    }
+
 `;
 
 const Login = () => {
+    const [username, setUsername] = useState('');
+    const [userpassword, setUserpassword] = useState('');
+    const navigate = useNavigate();
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(username);
+        console.log(userpassword);
+        navigate('/dashboard');
+    }  
+
+
     return (
         <LoginContainer>
             <div className="login">
                 <h1>SISTEMA DE GESTÃO</h1>
                 <h2>de processos organizacionais</h2>
                 <div className="containerForm">
-                    <form action="">
-                        <input type="text" placeholder="Name" />
-                        <input type="password" name="password" id="" placeholder="Password" />
+                    <form onSubmit={handleSubmit}>
+                        <input 
+                            id="name" 
+                            type="text" 
+                            placeholder="Name"
+                            value = {username}
+                            onChange={(e) => setUsername(e.target.value)} 
+                            />
+                        <input 
+                            id="password" 
+                            type="password"
+                            placeholder="Password"
+                            value={userpassword}
+                            onChange={(e) => setUserpassword(e.target.value)} 
+                            />
                         <button type="submit">LOGIN</button>
                     </form>
                 </div>                
