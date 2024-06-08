@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AdminLayout from "../layouts/AdminLayout";
-import Dashboard from "../pages/Dashboard";
+import DashboardLayout from "../layouts/DashboardLayout";
+import Fornecedores from "../pages/Dashboard/Fornecedores";
 
 
 const Paths = () => {
@@ -10,8 +11,8 @@ const Paths = () => {
                 <Route path={"/"} element={<AdminLayout />}>
 
                 </Route>
-                <Route path={"/dashboard"} element={<Dashboard />}>
-                
+                <Route path={"/dashboard"} element={<DashboardLayout />}>
+                    <Route path={"/dashboard/fornecedores"} element={<Fornecedores />} />
                 </Route>
             </Routes>
         </BrowserRouter>
