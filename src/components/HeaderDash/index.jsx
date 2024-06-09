@@ -8,7 +8,7 @@ const HeaderDash = () => {
             <nav>
                 <ul className='flex flex-column p-0 gap-4'>
                     <li>
-                        <Link className='text-white' to={'/dashboard'}>Analises</Link>
+                        <Link className='text-white' to={'/dashboard'}>Análises</Link>
                     </li>
                     <li>
                         <Link className='text-white' to={'/dashboard/fornecedores'}>Fornecedores</Link>

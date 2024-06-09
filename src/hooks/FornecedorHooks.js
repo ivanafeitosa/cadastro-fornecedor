@@ -25,3 +25,31 @@ export const useCriarFornecedor = () => {
         }
     });
 }
+
+export const useEditarFornecedor = () => {
+    return useMutation({
+        mutationFn: async (data) => {
+            const request = await API.put(`fornecedores/${data.id}`, data);
+            return request.data;
+        },
+        onSuccess: () => {
+            queryClient.invalidateQueries({
+                queryKey: ['buscar-fornecedores']
+            });
+        }
+    });
+}
+
+export const useDeletarFornecedor = () => {
+    return useMutation({
+        mutationFn: async (id) => {
+            const request = await API.delete(`fornecedores/${id}`);
+            return request.data;
+        },
+        onSuccess: () => {
+            queryClient.invalidateQueries({
+                queryKey: ['buscar-fornecedores']
+            });
+        }
+    });
+}
