@@ -1,4 +1,6 @@
 import Paths from "./routes";
+import { QueryClientProvider } from "@tanstack/react-query";
+import { queryClient } from "./services";
 
 
 import "primereact/resources/themes/lara-light-cyan/theme.css";
@@ -7,12 +9,16 @@ import "primeicons/primeicons.css";
 
 
 
+
 const App = () => {
   
 
   return (
     <>
-      <Paths />
+      <QueryClientProvider client={queryClient}>
+        <Paths />
+      </QueryClientProvider>
+      
     </>
   );
 }

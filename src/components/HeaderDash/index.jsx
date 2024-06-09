@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HeaderDash = () => {
     return(
-        <header className='w-1/5 h-screen bg-indigo-600 p-3 text-white'>
+        <header className='w-1/5 h-screen bg-indigo-800 p-3 text-white'>
             <h1 className='py-4'>ORGPROCESS</h1>
             <nav>
                 <ul className='flex flex-column p-0 gap-4'>
