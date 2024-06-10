@@ -112,9 +112,9 @@ const Fornecedores = () => {
             <h2 className="flex justify-content-between align-items-center">
                 Fornecedores
                 <Button 
-                    label='Novo fornecedor'
+                    // label='Novo fornecedor'
                     icon={'pi pi-plus'}
-                    className='bg-blue-500 hover:bg-blue-800 gap-3 border-0'
+                    className='bg-blue-500 hover:bg-blue-800 border-0'
                     onClick={() => setVisibleCreate(true)}
                 />
             </h2>
