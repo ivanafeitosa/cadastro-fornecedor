@@ -1,0 +1,180 @@
+{
+  "fornecedores": [
+    {
+      "id": "1",
+      "nome": "T&A Pré-Fabricados",
+      "cnpj": "01301612000420",
+      "email": "tea.ba@tea.com.br",
+      "telefone": "85991022912",
+      "status": "Contratado"
+    },
+    {
+      "id": "2",
+      "nome": "Construtora Alfa",
+      "cnpj": "01478965000156",
+      "email": "contato@alfa.com.br",
+      "telefone": "85987125634",
+      "status": "Pendente"
+    },
+    {
+      "id": "3",
+      "nome": "Beta Materiais de Construção",
+      "cnpj": "01584732000189",
+      "email": "vendas@beta.com.br",
+      "telefone": "85998741256",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "4",
+      "nome": "Gamma Equipamentos",
+      "cnpj": "01654789000245",
+      "email": "info@gamma.com.br",
+      "telefone": "85996587412",
+      "status": "Contratado"
+    },
+    {
+      "id": "5",
+      "nome": "Delta Ferramentas",
+      "cnpj": "01789562000314",
+      "email": "suporte@delta.com.br",
+      "telefone": "85998475621",
+      "status": "Contratado"
+    },
+    {
+      "id": "6",
+      "nome": "Epsilon Elétrica",
+      "cnpj": "01896352000478",
+      "email": "atendimento@epsilon.com.br",
+      "telefone": "85996784512",
+      "status": "Contratado"
+    },
+    {
+      "id": "7",
+      "nome": "Zeta Construtora",
+      "cnpj": "01985647000125",
+      "email": "comercial@zeta.com.br",
+      "telefone": "85998741256",
+      "status": "Contratado"
+    },
+    {
+      "id": "8",
+      "nome": "Eta Materiais",
+      "cnpj": "02074569000214",
+      "email": "vendas@eta.com.br",
+      "telefone": "85996587124",
+      "status": "Contratado"
+    },
+    {
+      "id": "9",
+      "nome": "Theta Ferragens",
+      "cnpj": "02185647000178",
+      "email": "contato@theta.com.br",
+      "telefone": "85998475231",
+      "status": "Contratado"
+    },
+    {
+      "id": "11",
+      "nome": "Kappa Construtora",
+      "cnpj": "02314785000178",
+      "email": "suporte@kappa.com.br",
+      "telefone": "85996587124",
+      "status": "Pendente"
+    },
+    {
+      "id": "12",
+      "nome": "Lambda Materiais",
+      "cnpj": "02489632000345",
+      "email": "contato@lambda.com.br",
+      "telefone": "85998475231",
+      "status": "Pendente"
+    },
+    {
+      "id": "13",
+      "nome": "Mu Equipamentos",
+      "cnpj": "02578963000412",
+      "email": "info@mu.com.br",
+      "telefone": "85998741256",
+      "status": "Pendente"
+    },
+    {
+      "id": "14",
+      "nome": "Nu Elétrica",
+      "cnpj": "02698745000123",
+      "email": "vendas@nu.com.br",
+      "telefone": "85996587124",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "15",
+      "nome": "Xi Construtora",
+      "cnpj": "02784596000231",
+      "email": "atendimento@xi.com.br",
+      "telefone": "85998475231",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "16",
+      "nome": "Omicron Materiais",
+      "cnpj": "02856374000345",
+      "email": "suporte@omicron.com.br",
+      "telefone": "85998741256",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "17",
+      "nome": "Pi Ferragens",
+      "cnpj": "02974586000412",
+      "email": "contato@pi.com.br",
+      "telefone": "85996587124",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "18",
+      "nome": "Rho Engenharia",
+      "cnpj": "03084762000156",
+      "email": "engenharia@rho.com.br",
+      "telefone": "85998475231",
+      "status": "Contratado"
+    },
+    {
+      "id": "20",
+      "nome": "Tau Materiais",
+      "cnpj": "03274569000312",
+      "email": "vendas@tau.com.br",
+      "telefone": "85996587124",
+      "status": "Contratado"
+    },
+    {
+      "id": "2580",
+      "nome": "Consultoria Giovs",
+      "cnpj": "0123546895221222",
+      "email": "consultoriagiovs@teste.com",
+      "telefone": "(85) 98521-2456",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "cbc9",
+      "nome": "agr vai",
+      "cnpj": "123456789",
+      "email": "agrvaii@gmail.com",
+      "telefone": "(85) 95426-8152",
+      "status": "Não Contratado"
+    },
+    {
+      "id": "7b67",
+      "nome": "ultimoteste",
+      "cnpj": "123456789",
+      "email": "ultimo@gmail.com",
+      "telefone": "(85) 92325-4562",
+      "status": "Contratado"
+    },
+    {
+      "id": "143e",
+      "nome": "Social",
+      "cnpj": "453151512",
+      "email": "social@vendas.com",
+      "telefone": "(85) 98752-6389",
+      "status": "Contratado"
+    }
+  ]
+}
